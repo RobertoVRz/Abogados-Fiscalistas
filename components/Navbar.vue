@@ -1,6 +1,7 @@
 <template>
   <div
     class="
+      navbar
       h-14
       px-10
       w-screen
@@ -13,7 +14,7 @@
     "
   >
     <img class="cursor-pointer" src="@/assets/imgs/icons/logo.svg" alt="" />
-    <div class="text-white hidden lg:flex">
+    <div class="navbar__menu text-white hidden lg:flex">
       <a class="mr-16" href="#nosotros">Nosotros</a>
       <a class="mr-16" href="#experiencia">Experiencia</a>
       <a class="mr-16" href="#clientes">Clientes</a>
@@ -25,3 +26,10 @@
     </div>
   </div>
 </template>
+<style lang="scss">
+.navbar{
+  &__menu{
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+</style>
