@@ -107,6 +107,7 @@ export default {
   }
 
   .swiper-container {
+    font-family: 'Montserrat', sans-serif;
     @include screen(mobile-xs) {
       width: 309px;
       height: 110%;

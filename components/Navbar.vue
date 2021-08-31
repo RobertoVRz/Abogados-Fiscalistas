@@ -7,7 +7,7 @@
       w-screen
       bg-black
       fixed
-      z-10
+      z-20
       flex
       justify-between
       items-center

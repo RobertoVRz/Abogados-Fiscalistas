@@ -6,6 +6,12 @@
       src="@/assets/imgs/down.png"
       alt=""
     />
+    <div class="h-screen flex flex-col items-center justify-around">
+      <h1 class="title text-center">Parte de nuestros clientes lo contituyen:</h1>
+      <Slider1 />
+      <Slider2 />
+      <Slider3 />
+    </div>
   </section>
 </template>
 <style lang="scss">

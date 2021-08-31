@@ -1,7 +1,72 @@
 <template>
   <section class="contacto bg-white flex flex-col lg:flex-row flex-wrap">
-    <div class="contacto__datos">
+    <div class="contacto__datos flex flex-col justify-around p-20">
       <h1 class="contacto__title title">Contacto</h1>
+      <div class="flex items-center">
+        <img
+          class="contacto__icons"
+          src="@/assets/imgs/icons/mail.svg"
+          alt=""
+        />
+        <div class="text_black">
+          <a>carflex@gmail.com</a> <br />
+          <a>directum.lg@hotmail.com</a> <br />
+          <a>hago95@hotmail.com</a> <br />
+        </div>
+      </div>
+
+      <div class="flex items-center">
+        <img
+          class="contacto__icons"
+          src="@/assets/imgs/icons/phone.svg"
+          alt=""
+        />
+        <div class="text_black">
+          <a>271 712 2614</a>
+        </div>
+      </div>
+
+      <div class="flex items-center">
+        <img
+          class="contacto__icons"
+          src="@/assets/imgs/icons/whats.svg"
+          alt=""
+        />
+        <div class="text_black">
+          <a href="">271 180 1644</a><br />
+          <a href="">272 129 2708</a><br />
+          <a href="">271 718 2955</a>
+        </div>
+      </div>
+
+      <div class="flex items-center">
+        <img
+          class="contacto__icons"
+          src="@/assets/imgs/icons/insta.svg"
+          alt=""
+        />
+        <div class="text_black">
+          <a>@fgabogadosfiscalistas</a>
+        </div>
+      </div>
+
+      <div class="flex items-center">
+        <img
+          class="contacto__icons"
+          src="@/assets/imgs/icons/face.svg"
+          alt=""
+        />
+        <div class="text_black">
+          <a>F&G Abogados Fiscalistas</a>
+        </div>
+      </div>
+
+      <div class="flex items-center">
+        <img class="contacto__icons" src="@/assets/imgs/icons/pin.svg" alt="" />
+        <div class="text_black">
+          <p>Av. 11 #2001, Int 301, Córdoba, Veracruz</p>
+        </div>
+      </div>
     </div>
     <div class="contacto__mapa">
       <iframe
@@ -37,6 +102,12 @@
       width: 50vw;
       height: 100vh;
     }
+  }
+  &__icons {
+    height: 50px;
+    width: 50px;
+    padding: 0.2rem;
+    margin-right: 1rem;
   }
   &__mapa {
     @include screen(mobile-xs) {
