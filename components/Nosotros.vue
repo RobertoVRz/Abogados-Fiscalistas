@@ -1,5 +1,5 @@
 <template>
-  <section class="nosotros relative">
+  <section class="nosotros relative" id="nosotros">
     <img class="absolute top-0 w-screen" src="@/assets/imgs/up.png" alt="" />
     <img
       class="absolute bottom-0 w-screen"
@@ -18,6 +18,8 @@
         pt-60
         lg:pt-10
       "
+      data-aos="fade-up"
+      data-aos-delay="1000"
     >
       <h1 class="title mb-10">¿Quiénes Somos?</h1>
       <div class="nosotros__contenedor">

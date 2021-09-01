@@ -8,8 +8,21 @@
       src="@/assets/imgs/down.png"
       alt=""
     />
-    <img class="hero__logo mb-20" src="@/assets/imgs/icons/logo.svg" alt="" />
-    <span class="hero__subtitle text-white">Abogados Fiscalistas</span>
+    <img
+      class="hero__logo mb-20"
+      src="@/assets/imgs/icons/logo.svg"
+      alt=""
+      data-aos="fade-up"
+      data-aos-delay="1000"
+      data-aos-duration="2500s"
+    />
+    <span
+      class="hero__subtitle text-white"
+      data-aos="fade-up"
+      data-aos-delay="1500"
+      data-aos-duration="2500s"
+      >Abogados Fiscalistas</span
+    >
   </section>
 </template>
 <style lang="scss">

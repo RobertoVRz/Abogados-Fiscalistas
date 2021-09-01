@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="index">
     <hero />
     <nosotros />
     <servicios />
@@ -11,6 +11,14 @@
 <script>
 import Hero from '../components/Hero.vue'
 export default {
+  mounted() {
+    AOS.init()
+  },
   components: { Hero },
 }
 </script>
+<style lang="scss">
+.index {
+  overflow-x: hidden;
+}
+</style>

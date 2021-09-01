@@ -1,16 +1,36 @@
 <template>
-  <section class="servicios relative py-3">
+  <section class="servicios relative py-3" id="experiencia">
     <img class="absolute top-0 w-screen" src="@/assets/imgs/up.png" alt="" />
     <img
       class="absolute bottom-0 w-screen"
       src="@/assets/imgs/down.png"
       alt=""
     />
-    <div class="h-screen">
-      <h1 class="title text-center pt-20 -mb-40 z-10">
+
+    <div class="h-screen" data-aos="fade-up" data-aos-delay="1000">
+      <h1 class="title text-center pt-10 lg:pt-20 lg:-mb-40 z-10">
         Contamos con experiencia en:
       </h1>
-      <div class="servicios__container flex text-white">
+
+      <div class="h-full flex lg:hidden flex-col justify-center items-center">
+        <div class="w-screen text-center h-40">
+          <h1 class="servicios__slides-mobile text-white">
+            Instauración de juicios de nulidad
+          </h1>
+        </div>
+        <div class="w-screen text-center h-40">
+          <h1 class="servicios__slides-mobile text-white">
+            Instauración de juicios de nulidad
+          </h1>
+        </div>
+        <div class="text-center h-40">
+          <h1 class="servicios__slides-mobile text-white">
+            Instauración de juicios de nulidad
+          </h1>
+        </div>
+      </div>
+
+      <div class="servicios__container text-white hidden lg:flex">
         <div
           class="
             servicios__slides
@@ -24,7 +44,10 @@
           @mouseover="display(1)"
         >
           <h1 class="bg-black">Instauración de juicios de nulidad</h1>
-          <p class="servicios__text text text-left mb-20" v-show="this.slide == 1">
+          <p
+            class="servicios__text text text-left mb-20"
+            v-show="this.slide == 1"
+          >
             -Determinación de créditos fiscales por parte del SAT, IMSS,
             INFONAVIT, Secretaría de Finanzas de cualquier Estado, etcétera,
             resultado del ejercicio de sus facultades de comprobación tales como
@@ -133,6 +156,15 @@ export default {
     height: 100%;
     border-right: 1px solid black;
   }
+  &__slides-mobile {
+    font-family: 'Cormorant', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.15em;
+  }
   &__container {
     height: 100%;
   }
@@ -140,6 +172,9 @@ export default {
     font-size: 15px !important;
     line-height: 25px !important;
     margin-top: 3rem;
+    font-family: 'Monstserrat', sans-serif !important;
+    font-weight: 200 !important;
+    font-style: normal !important;
   }
   &--black {
     background-color: rgba(0, 0, 0, 0.5);
