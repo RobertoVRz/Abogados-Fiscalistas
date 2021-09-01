@@ -1,6 +1,7 @@
 <template>
   <section
     class="hero h-screen relative flex flex-col justify-center items-center"
+    id="hero"
   >
     <img class="absolute top-0 w-screen" src="@/assets/imgs/up.png" alt="" />
     <img
