@@ -8,10 +8,10 @@
     />
 
     <div class="h-screen" data-aos="fade-up" data-aos-delay="1000">
-      <h1
-        class="title text-center pt-0 -mb-40 lg:pt-20 lg:-mb-40 z-10"
-        v-if="this.slide == 0"
-      >
+      <h1 class="title text-center block lg:hidden z-10" v-if="this.slide == 0">
+        Contamos con experiencia en:
+      </h1>
+      <h1 class="title text-center hidden lg:block lg:pt-20 lg:-mb-40 z-10">
         Contamos con experiencia en:
       </h1>
 
