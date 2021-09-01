@@ -16,7 +16,10 @@
     </div>
   </section>
 </template>
-<style lang="scss">
-.clientes {
+<script>
+export default {
+  mounted() {
+    AOS.init()
+  },
 }
-</style>
+</script>

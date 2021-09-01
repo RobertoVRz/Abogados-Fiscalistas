@@ -25,6 +25,13 @@
     >
   </section>
 </template>
+<script>
+export default {
+  mounted() {
+    AOS.init()
+  },
+}
+</script>
 <style lang="scss">
 .hero {
   background-image: url('@/assets/imgs/Fondo1.jpg');

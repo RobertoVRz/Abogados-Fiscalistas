@@ -130,6 +130,13 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  mounted() {
+    AOS.init()
+  },
+}
+</script>
 <style lang="scss">
 .contacto {
   @include screen(mobile-xs) {

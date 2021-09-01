@@ -125,6 +125,9 @@
 </template>
 <script>
 export default {
+   mounted() {
+    AOS.init()
+  },
   data() {
     return {
       slide: '',
