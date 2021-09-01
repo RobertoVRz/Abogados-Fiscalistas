@@ -28,7 +28,7 @@
 <script>
 export default {}
 </script>
-<style lang="postcss" scoped>
+<style lang="scss" scoped>
 .slider--black {
   background-color: black;
   border: 1px solid white;
