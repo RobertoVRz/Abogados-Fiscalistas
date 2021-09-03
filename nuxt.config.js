@@ -7,12 +7,35 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Abogados_FG',
+    title: 'Abogados Fiscalistas',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: 'theme-color', content: '#000000' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://www.fgabogadosfiscalistas.com/',
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'FG | Abogados Fiscalistas',
+      },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'FG | Abogados Fiscalistas',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'Somos un despacho de abogados especializados en la materia fiscal con más de veinte años de experiencia.',
+      },
     ],
 
     script: [
