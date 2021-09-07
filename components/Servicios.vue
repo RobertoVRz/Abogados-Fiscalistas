@@ -7,7 +7,7 @@
       alt=""
     />
 
-    <div class="h-screen" data-aos="fade-up" data-aos-delay="1000">
+    <div class="h-screen" data-aos="fade-up" data-aos-delay="500">
       <h1 class="title text-center block lg:hidden z-10" v-if="this.slide == 0">
         Contamos con experiencia en:
       </h1>

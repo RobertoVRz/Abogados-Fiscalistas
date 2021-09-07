@@ -7,7 +7,7 @@
       alt=""
     />
     <div class="h-screen flex flex-col items-center justify-around">
-      <h1 class="title text-center" data-aos="fade-up" data-aos-delay="1000">
+      <h1 class="title text-center" data-aos="fade-up" data-aos-delay="500">
         Parte de nuestros clientes lo contituyen:
       </h1>
       <Slider1 />

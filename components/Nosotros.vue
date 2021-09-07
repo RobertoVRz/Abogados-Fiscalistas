@@ -19,7 +19,7 @@
         lg:pt-10
       "
       data-aos="fade-up"
-      data-aos-delay="1000"
+      data-aos-delay="500"
     >
       <h1 class="title mb-10">¿Quiénes Somos?</h1>
       <div class="nosotros__contenedor">
