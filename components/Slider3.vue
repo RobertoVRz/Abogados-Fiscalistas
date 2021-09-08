@@ -8,7 +8,7 @@
         <p>Seguridad Privada</p>
       </div>
       <div class="slider--white flex justify-center items-center">
-        <p>Distribuidaoras de bebidas</p>
+        <p>Distribuidoras de bebidas</p>
       </div>
       <div class="slider--black flex justify-center items-center">
         <p>Productoras</p>
@@ -61,9 +61,9 @@ export default {}
   text-align: center;
   position: absolute;
   white-space: nowrap;
-  -moz-animation: scroll-left 40s linear infinite;
-  -webkit-animation: scroll-left 40s linear infinite;
-  animation: scroll-left 40s linear infinite;
+  -moz-animation: scroll-left 35s linear infinite;
+  -webkit-animation: scroll-left 35s linear infinite;
+  animation: scroll-left 35s linear infinite;
 }
 
 @-moz-keyframes scroll-left {

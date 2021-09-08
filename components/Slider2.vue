@@ -66,9 +66,9 @@ export default {}
   text-align: center;
   position: absolute;
   white-space: nowrap;
-  -moz-animation: scroll-right 50s linear infinite;
-  -webkit-animation: scroll-right 50s linear infinite;
-  animation: scroll-right 50s linear infinite;
+  -moz-animation: scroll-right 45s linear infinite;
+  -webkit-animation: scroll-right 45s linear infinite;
+  animation: scroll-right 45s linear infinite;
 }
 
 @-moz-keyframes scroll-right {
