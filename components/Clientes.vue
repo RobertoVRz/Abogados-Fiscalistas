@@ -19,7 +19,7 @@
 <script>
 export default {
   mounted() {
-    AOS.init()
+    //AOS.init()
   },
 }
 </script>

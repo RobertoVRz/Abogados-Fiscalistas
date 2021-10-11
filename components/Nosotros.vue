@@ -73,7 +73,7 @@ import 'swiper/swiper-bundle.css'
 export default {
   mounted() {
     this.slider()
-    AOS.init()
+    //AOS.init()
   },
   methods: {
     slider() {

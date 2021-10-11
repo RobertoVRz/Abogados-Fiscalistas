@@ -15,6 +15,6 @@ export default {
 </script>
 <style lang="scss">
 .index {
-  overflow: hidden;
+  //overflow: hidden;
 }
 </style>
