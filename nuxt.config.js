@@ -82,6 +82,7 @@ export default {
   pwa: {
     manifest: {
       lang: 'en',
+      background_color: '#000000'
     },
   },
 
