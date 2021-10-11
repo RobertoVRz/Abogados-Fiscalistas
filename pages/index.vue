@@ -1,5 +1,5 @@
 <template>
-  <div class="index">
+  <div>
     <hero />
     <nosotros />
     <servicios />
@@ -13,8 +13,4 @@ export default {
   mounted() {},
 }
 </script>
-<style lang="scss">
-.index {
-  //overflow: hidden;
-}
-</style>
+<style lang="scss"></style>
