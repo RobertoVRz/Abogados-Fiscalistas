@@ -10,13 +10,11 @@
 
 <script>
 export default {
-  mounted() {
-    AOS.init()
-  },
+  mounted() {},
 }
 </script>
 <style lang="scss">
 .index {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 </style>
