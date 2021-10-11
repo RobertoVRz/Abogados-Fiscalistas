@@ -9,12 +9,10 @@
 </template>
 
 <script>
-import Hero from '../components/Hero.vue'
 export default {
   mounted() {
     AOS.init()
   },
-  components: { Hero },
 }
 </script>
 <style lang="scss">
