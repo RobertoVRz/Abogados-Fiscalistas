@@ -83,7 +83,7 @@ export default {
         slidesPerView: 1,
         loop: true,
         autoplay: {
-          delay: 2000,
+          delay: 5000,
         },
         pagination: {
           el: '.swiper-pagination',
@@ -118,7 +118,7 @@ export default {
 
     @include screen(desktop) {
       width: 542px;
-      height: 40vh;
+      height: 25rem;
     }
   }
   .swiper-pagination-bullet {

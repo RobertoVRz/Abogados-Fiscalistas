@@ -112,7 +112,7 @@
         >
           <div class="servicios__mobileContainer">
             <h1 class="servicios__slides-mobile text-white" @click="display(3)">
-              Instauración de juicios de nulidad
+              Defensa en procesos penales federales
             </h1>
             <img
               class="mx-auto"
