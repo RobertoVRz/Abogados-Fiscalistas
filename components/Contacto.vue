@@ -60,9 +60,9 @@
           src="@/assets/imgs/icons/whats.svg"
           alt=""
         />
-        <div class="text_black">
-          <a href="tel:+522711801644">271 180 1644</a><br />
-          <a href="tel:+522721292708">272 129 2708</a><br />
+        <div class="text_black w-full flex flex-col">
+          <a href="tel:+522711801644">271 180 1644</a>
+          <a href="tel:+522721292708">272 129 2708</a>
           <a href="tel:+522717182955">271 718 2955</a>
         </div>
       </div>
