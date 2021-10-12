@@ -26,7 +26,7 @@
           alt=""
         />
         <div class="text_black">
-          <a href="mailto:carflex@hotmail.com">carflex@hotmail.com</a> <br />
+          <a href="mailto:cafrlex@hotmail.com">carflex@hotmail.com</a> <br />
           <a href="mailto:directum.lg@gmail.com">directum.lg@gmail.com</a>
           <br />
           <a href="mailto:hafo95@hotmail.com">hafo95@hotmail.com</a> <br />
@@ -63,11 +63,11 @@
         <div class="text_black w-full flex flex-col">
           <div class="mb-2">
             <span class="font-bold">Lic. Carlos Antonio Flores Rojas - </span>
-            <a href="tel:+522711801644">271 180 1644</a>
+            <a href="tel:+522721292708">272 129 2708</a>
           </div>
           <div class="mb-2">
             <span class="font-bold">Mtro. Luis Miguel García Rojas - </span>
-            <a href="tel:+522721292708">272 129 2708</a>
+            <a href="tel:+522711801644">271 180 1644</a>
           </div>
           <div class="mb-2">
             <span class="font-bold">Mtro. Hugo Arturo Flores Olivas - </span>
