@@ -125,19 +125,16 @@
               class="servicios__text text text-left mb-20 px-5"
               v-show="this.slide == 3"
             >
-              Seguimiento de éstos ante un Juzgado de Distrito, que incluye la
-              promoción de diversos recursos e incidentes hasta su total
-              conclusión en cualquier parte de la República Mexicana, derivado
-              de:
-              <br /><br />
-              - Leyes o Reglamentos que violenten los derechos reconocidos en la
-              Constitución Política de los Estados Unidos Mexicanos.
-              <br /><br />
-              - Congelamiento o aseguramiento precautorio de cuentas bancarias.
-              <br /><br />
-              - Auditorías físicas y electrónicas, revisiones de escritorio o
-              revisiones de dictámenes que sean violatorias de la Constitución
-              Política de los Estados Unidos Mexicanos. <br /><br />
+              Derivados de la comisión de delitos fiscales tales como:<br /><br />
+              - Defraudación fiscal.<br /><br />
+              - Defraudación fiscal equiparable.<br /><br />
+              - Contrabando.<br /><br />
+              - Contrabando equiparable.<br /><br />
+              - Relacionados con el Registro Federal de Contribuyentes.<br /><br />
+              - Depositaría Infiel.<br /><br />
+              - Operaciones simuladas.<br />
+              <br />
+              - Otros.
             </p>
             <img
               class="-mt-20 mx-auto"
@@ -303,23 +300,19 @@
             </div>
             <div class="flex items-center">
               <p class="servicios__text text text-left mb-20">
-                Seguimiento de éstos ante un Juzgado de Distrito, que incluye la
-                promoción de diversos recursos e incidentes hasta su total
-                conclusión en cualquier parte de la República Mexicana, derivado
-                de:
-                <br /><br />
-                - Leyes o Reglamentos que violenten los derechos reconocidos en
-                la Constitución Política de los Estados Unidos Mexicanos.
-                <br /><br />
-                - Congelamiento o aseguramiento precautorio de cuentas
-                bancarias.
-                <br /><br />
-                - Auditorías físicas y electrónicas, revisiones de escritorio o
-                revisiones de dictámenes que sean violatorias de la Constitución
-                Política de los Estados Unidos Mexicanos. <br /><br />
+                Derivados de la comisión de delitos fiscales tales como:<br /><br />
+                - Defraudación fiscal.<br /><br />
+                - Defraudación fiscal equiparable.<br /><br />
+                - Contrabando.<br /><br />
+                - Contrabando equiparable.<br /><br />
+                - Relacionados con el Registro Federal de Contribuyentes.<br /><br />
+                - Depositaría Infiel.<br /><br />
+                - Operaciones simuladas.<br />
+                <br />
+                - Otros.
               </p>
               <img
-                class="servicios__img"
+                class="servicios__img ml-10"
                 src="@/assets/imgs/penales.jpeg"
                 alt=""
               />

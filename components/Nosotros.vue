@@ -21,10 +21,10 @@
       data-aos="fade-up"
       data-aos-delay="500"
     >
-      <h1 class="title mb-10">¿Quiénes Somos?</h1>
+      <h1 class="title mb-10">¿Quiénes somos?</h1>
       <div class="nosotros__contenedor">
         <div class="swiper-container">
-          <div class="swiper-wrapper">
+          <div class="swiper-wrapper text-justify lg:text-left">
             <div class="swiper-slide">
               <p class="text">
                 En F&G Abogados Fiscalistas tenemos como objetivo principal la
@@ -83,11 +83,12 @@ export default {
         slidesPerView: 1,
         loop: true,
         autoplay: {
-          delay: 5000,
+          delay: 10000,
         },
         pagination: {
           el: '.swiper-pagination',
           type: 'bullets',
+          clickable: true,
         },
       })
       return swiper

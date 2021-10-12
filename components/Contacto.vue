@@ -15,7 +15,7 @@
         Contacto
       </h1>
       <div
-        class="flex items-center"
+        class="flex items-center mb-5 lg:mb-0"
         data-aos="fade-right"
         data-aos-delay="1000"
         data-aos-anchor=".contacto"
@@ -26,15 +26,15 @@
           alt=""
         />
         <div class="text_black">
-          <a href="mailto:carflex@gmail.com">carflex@gmail.com</a> <br />
-          <a href="mailto:directum.lg@hotmail.com">directum.lg@hotmail.com</a>
+          <a href="mailto:carflex@hotmail.com">carflex@hotmail.com</a> <br />
+          <a href="mailto:directum.lg@gmail.com">directum.lg@gmail.com</a>
           <br />
           <a href="mailto:hafo95@hotmail.com">hafo95@hotmail.com</a> <br />
         </div>
       </div>
 
       <div
-        class="flex items-center"
+        class="flex items-center mb-5 lg:mb-0"
         data-aos="fade-right"
         data-aos-delay="1000"
         data-aos-anchor=".contacto"
@@ -50,7 +50,7 @@
       </div>
 
       <div
-        class="flex items-center"
+        class="flex items-center mb-5 lg:mb-0"
         data-aos="fade-right"
         data-aos-delay="1000"
         data-aos-anchor=".contacto"
@@ -61,14 +61,23 @@
           alt=""
         />
         <div class="text_black w-full flex flex-col">
-          <a href="tel:+522711801644">271 180 1644</a>
-          <a href="tel:+522721292708">272 129 2708</a>
-          <a href="tel:+522717182955">271 718 2955</a>
+          <div class="mb-2">
+            <span class="font-bold">Lic. Carlos Antonio Flores Rojas - </span>
+            <a href="tel:+522711801644">271 180 1644</a>
+          </div>
+          <div class="mb-2">
+            <span class="font-bold">Mtro. Luis Miguel García Rojas - </span>
+            <a href="tel:+522721292708">272 129 2708</a>
+          </div>
+          <div class="mb-2">
+            <span class="font-bold">Mtro. Hugo Arturo Flores Olivas - </span>
+            <a href="tel:+522717182955">271 718 2955</a>
+          </div>
         </div>
       </div>
 
       <div
-        class="flex items-center"
+        class="flex items-center mb-5 lg:mb-0"
         data-aos="fade-right"
         data-aos-delay="1000"
         data-aos-anchor=".contacto"
@@ -88,7 +97,7 @@
       </div>
 
       <div
-        class="flex items-center"
+        class="flex items-center mb-5 lg:mb-0"
         data-aos="fade-right"
         data-aos-delay="1000"
         data-aos-anchor=".contacto"
@@ -108,7 +117,7 @@
       </div>
 
       <div
-        class="flex items-center"
+        class="flex items-center mb-5 lg:mb-0"
         data-aos="fade-right"
         data-aos-delay="500"
         data-aos-anchor=".contacto"
