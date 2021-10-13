@@ -1,10 +1,14 @@
 .title {
-  font-family: 'Cormorant', serif;
+  font-family: 'Montserrat', sans-serif;
+  //font-family: 'Cormorant', serif;
   font-style: normal;
-  font-weight: 100;
-  font-size: 48px;
+  font-weight: 500;
+  font-size: 30px;
   line-height: 72px;
   color: white;
+  @include screen(tablet){
+    font-size: 48px;
+  }
 }
 
 .text {

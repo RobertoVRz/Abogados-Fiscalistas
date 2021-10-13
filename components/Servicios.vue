@@ -153,7 +153,7 @@
           text-white
           hidden
           lg:flex
-          justify-center
+          justify-around
           items-center
         "
       >
@@ -439,19 +439,22 @@ export default {
     overflow-y: scroll;
   }
   &__slides {
-    font-family: 'Cormorant', serif;
+    font-family: 'Montserrat', sans-serif;
+    //font-family: 'Cormorant', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
+    width: 25rem;
+    letter-spacing: 1px;
     line-height: 36px;
     text-align: center;
-    letter-spacing: 0.15em;
     &-mas {
       font-size: 24px;
     }
   }
   &__slides-mobile {
-    font-family: 'Cormorant', serif;
+    font-family: 'Montserrat', sans-serif;
+    //font-family: 'Cormorant', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;

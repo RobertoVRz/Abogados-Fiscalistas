@@ -13,7 +13,7 @@
       items-center
     "
   >
-    <img class="cursor-pointer" src="@/assets/imgs/icons/logo.svg" alt="" />
+    <img class="cursor-pointer h-8" src="@/assets/imgs/icons/Vector.png" alt="" />
     <div class="navbar__menu text-white hidden lg:flex">
       <a class="mr-16" href="#nosotros" v-smooth-scroll>Nosotros</a>
       <a class="mr-16" href="#experiencia" v-smooth-scroll>Experiencia</a>
