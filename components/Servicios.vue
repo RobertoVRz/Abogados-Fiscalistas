@@ -33,7 +33,7 @@
               v-if="this.slide != 1"
             />
             <p
-              class="servicios__text-movile text text-left mb-20 px-5"
+              class="servicios__text-movile text-justify lg:text-left  mb-20 px-5"
               v-if="this.slide == 1"
             >
               -Determinación de créditos fiscales por parte del SAT, IMSS,
@@ -79,7 +79,7 @@
               v-if="this.slide != 2"
             />
             <p
-              class="servicios__text text text-left mb-20 px-5"
+              class="servicios__text text text-justify lg:text-left mb-20 px-5"
               v-if="this.slide == 2"
             >
               Seguimiento de éstos ante un Juzgado de Distrito, que incluye la
