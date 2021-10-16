@@ -33,7 +33,7 @@
               v-if="this.slide != 1"
             />
             <p
-              class="servicios__text-movile text-justify lg:text-left  mb-20 px-5"
+              class="servicios__text-movile text-white text-justify lg:text-left  mb-20 px-5"
               v-if="this.slide == 1"
             >
               -Determinación de créditos fiscales por parte del SAT, IMSS,
